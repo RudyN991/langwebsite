@@ -467,6 +467,34 @@ button {
   scroll-margin-top: 96px;
 }
 
+.subpage-body {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.subpage-body p,
+.subpage-source,
+.subpage-label {
+  margin: 0;
+}
+
+.subpage-source a {
+  color: #9ecbff;
+  word-break: break-word;
+}
+
+.subpage-label {
+  color: #bad8ff;
+  font-weight: 700;
+}
+
+.subpage-commentary {
+  display: grid;
+  gap: 14px;
+  margin-top: 6px;
+}
+
 .starfield,
 .ambient-glow {
   position: fixed;

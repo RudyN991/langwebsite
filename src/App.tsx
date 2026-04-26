@@ -298,10 +298,32 @@ function TopicPage({
             ref={(node) => registerSection(subpage.id, node)}
             className="subpage-section glass-panel"
           >
-            <p className="eyebrow">Placeholder Section</p>
+            <p className="eyebrow">Featured Section</p>
             <h2>{subpage.title}</h2>
             <p>{subpage.description}</p>
-            <p>{subpage.content}</p>
+            <div className="subpage-body">
+              {subpage.content.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+
+              {subpage.sourceUrl && (
+                <p className="subpage-source">
+                  <span>Link to source: </span>
+                  <a href={subpage.sourceUrl} target="_blank" rel="noreferrer">
+                    {subpage.sourceUrl}
+                  </a>
+                </p>
+              )}
+
+              {subpage.commentary && (
+                <div className="subpage-commentary">
+                  <p className="subpage-label">Personal commentary:</p>
+                  {subpage.commentary.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
+              )}
+            </div>
           </article>
         ))}
       </div>

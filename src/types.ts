@@ -10,7 +10,9 @@ export interface Subpage {
   id: string;
   title: string;
   description: string;
-  content: string;
+  content: string[];
+  sourceUrl?: string;
+  commentary?: string[];
 }
 
 export interface Topic {
