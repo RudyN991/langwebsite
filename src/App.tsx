@@ -7,6 +7,63 @@ type PageState = {
   subpageId?: string;
 };
 
+const checklistRows = [
+  {
+    letter: "R",
+    label: "Reading",
+    weeks: [
+      { title: "Deep Space Literacy", complete: true },
+      { title: "", complete: false },
+      { title: "", complete: false },
+    ],
+  },
+  {
+    letter: "E",
+    label: "Entertainment",
+    weeks: [
+      { title: "Movie", complete: true },
+      { title: "Music Album", complete: true },
+      { title: "Museum Visit", complete: true, weekLabel: "Week 2" },
+    ],
+  },
+  {
+    letter: "H",
+    label: "History",
+    weeks: [
+      { title: "", complete: false },
+      { title: "", complete: false },
+      { title: "", complete: false },
+    ],
+  },
+  {
+    letter: "U",
+    label: "Universal Truths",
+    weeks: [
+      { title: "", complete: false },
+      { title: "", complete: false },
+      { title: "", complete: false },
+    ],
+  },
+  {
+    letter: "G",
+    label: "Government",
+    weeks: [
+      { title: "", complete: false },
+      { title: "", complete: false },
+      { title: "", complete: false },
+    ],
+  },
+  {
+    letter: "O",
+    label: "Opinion",
+    weeks: [
+      { title: "", complete: false },
+      { title: "", complete: false },
+      { title: "", complete: false },
+    ],
+  },
+];
+
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [expandedTopics, setExpandedTopics] = useState<Record<TopicId, boolean>>(
@@ -165,6 +222,63 @@ function HomePage({
               <h3>{topic.title}</h3>
               <p>{topic.description}</p>
             </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="checklist-section glass-panel">
+        <div className="section-heading checklist-heading">
+          <p className="eyebrow">REHUGO Portfolio Project</p>
+          <h2>Homepage checklist</h2>
+          <p>
+            A simple week-by-week tracker for the evidence boxes completed so far.
+          </p>
+        </div>
+
+        <div className="checklist-table" role="table" aria-label="REHUGO portfolio checklist">
+          <div className="checklist-row checklist-header" role="row">
+            <span className="checklist-category-heading" role="columnheader">
+              Category
+            </span>
+            <span role="columnheader">Week 1</span>
+            <span role="columnheader">Week 2</span>
+            <span role="columnheader">Week 3</span>
+          </div>
+
+          {checklistRows.map((row) => (
+            <div className="checklist-row" role="row" key={row.letter}>
+              <div className="checklist-category" role="rowheader">
+                <span className="checklist-letter">{row.letter}</span>
+                <span>{row.label}</span>
+              </div>
+
+              {row.weeks.map((week, index) => (
+                <div
+                  className={`checklist-cell ${week.complete ? "complete" : ""}`}
+                  role="cell"
+                  key={`${row.letter}-${index}`}
+                >
+                  <span
+                    className="checklist-box"
+                    aria-label={`${row.label} ${week.weekLabel ?? `week ${index + 1}`} ${
+                      week.complete ? "complete" : "incomplete"
+                    }`}
+                  >
+                    {week.complete ? "✓" : ""}
+                  </span>
+                  <span className="checklist-copy">
+                    {week.complete && (
+                      <>
+                        <span className="checklist-week">
+                          {week.weekLabel ?? `Week ${index + 1}`}
+                        </span>
+                        <span className="checklist-title">{week.title}</span>
+                      </>
+                    )}
+                  </span>
+                </div>
+              ))}
+            </div>
           ))}
         </div>
       </section>
