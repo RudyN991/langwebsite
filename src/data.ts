@@ -64,13 +64,26 @@ export const topics: Topic[] = [
         id: "cosmic-soundtracks",
         title: "Cosmic Soundtracks",
         description: "Songs and scores that make astronomy feel expansive, urgent, and human.",
-        content: placeholder,
+        content: [
+          'David Bowie, a renowned musician, in his song "Starman" (1972), reflects humanity\'s hope and fascination with the stars. The song supports this through its lyrics, most notably its hook, that highlight the Starman\'s brightness and the fascination that everyone shares with him. His purpose is to invoke a sense of hopefulness for a bright future and a sense of wonder amongst his listeners about the stars and beyond them. Bowie uses an upbeat background track to bolster the optimistic tone of the song and highlight the central Starman part that circles around the idea of life beyond Earth, all overlaid with a synth style tune to further push that wondrous feeling.',
+        ],
+        sourceUrl:
+          "https://www.davidbowie.com/2002/2002/04/28/starman-released-30-years-ago-today",
+        commentary: [
+          'David Bowie does a good job with combining sound design with his lyrics to highlight the main point of the song. The song opens slowly in a way that seems unrelated to the main point, almost highlighting the lack of fascination. Then it jumps into the classic beat with the famous hook "There\'s a Starman waiting in the sky", creating a stark contrast that makes the tone and idea clear to the reader. Bowie also uses wordplay well with that to give the stars beyond a personality of a Starman, making it more interpersonal and making the wonder easier to classify. Through this he effectively makes the stars seem like an optimistic future on the horizon that humanity should aim for. In tandem with his other works, "Starman" deals with the idea of life beyond earth. However, this song specifically also well connects the general idea of space to a topic of fascination. The age of the song only acts as testament to the development of space advancement\'s importance because even today, the main idea of exploring the stars remains common and ever more in reach. Overall, the song highlights the importance of space and the fascination that surrounds it and effectively highlights/bolsters that curiosity about what\'s beyond the stars.',
+        ],
       },
       {
         id: "museum-archives",
         title: "Museum Archives",
         description: "Exhibits and historical collections that connect astronomy to public memory.",
-        content: placeholder,
+        content: [
+          "The Wings Over the Rockies Air & Space Museum in Denver, Colorado (1994) highlights through its various historical exhibits the advancement of humanity from the air to space. It highlights exhibits such as the Apollo 11 computer and the rocket engine models alongside the F-14 Tomcat highlighting all ranges of influential air and space technology. Their purpose is to inform the general public of technological development in the Aerospace field over time and often focus on their space related exhibits and future technological development for astronomical travel. The museum provides a multitude of different exhibits from different time periods that gives the visitors a comprehensive view at the scale of technological progression, from WWII relic bombers to modern jets, overall highlighting the natural curiosity and development that has resulted from space travel and research.",
+        ],
+        sourceUrl: "https://www.colorado.com/denver/wings-over-the-rockies-air-space-museum",
+        commentary: [
+          'The Wings over the Rockies Air & Space Museum sets up a lot of their exhibits in a way that highlights the distinctions between the modern and classic planes. It sections off the space into its own area that is surrounded by related aircraft, highlighting the technological advancements that result as part of space exploration. It has exhibits of the fastest car, nuclear bombers, modern fighter jets, old war planes, and engines. Its wide variety of exhibits highlight in the most direct way the compounding of aerospace technology and how space and air exploration and advancement have benefitted humanity. On top of that, its exhibits on the models of the Star Wars spacecraft add a sense of future possibility, representing a "this could come next" image and further clarifying the importance of aerospace. Overall, the museum supports the natural curiosity for the stars and the importance of why space exploration is important to the advancement of humanity.',
+        ],
       },
     ],
   },
