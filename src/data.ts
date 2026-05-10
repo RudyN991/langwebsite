@@ -98,16 +98,28 @@ export const topics: Topic[] = [
     accent: "#ffd38b",
     subpages: [
       {
-        id: "space-race",
-        title: "The Space Race",
-        description: "Competition, urgency, and the first leap beyond Earth.",
-        content: placeholder,
+        id: "apollo-11",
+        title: "Apollo 11",
+        description: "The moon landing as a defining milestone in global space history.",
+        content: [
+          "NASA's Apollo 11 mission (1969) was a turning point in astrospace history, an ambitious challenge to land the first humans on the moon. The overview of the mission provides direct insight to the development of astrospace technology through the many tries it took and the different versions of modern tools that we use today that derived from it. It also had a profound historical impact with the development of modern space programs across the world. The purpose of the mission was to land the first person on the moon and to incite an age of technological space innovation in the US, with the side effect of the USSR and the rest of the world following suit. The breakthrough achievement made headlines across the world and provided a look at Earth and humanity from an external lens, emphasizing the importance of science and the lure of space widely for the future.",
+        ],
+        sourceUrl: "https://www.nasa.gov/mission/apollo-11/",
+        commentary: [
+          "The Apollo 11 mission stands as one of the most important milestones for space and astronomy. It proved the worth of aerospace advancement and sparked the initial craze around exploring the stars. The mission is one of the staple pillars and the poster child for the ideas of reaching out to the stars and exploring the beyond. It is one of the most influential milestones and sparked peace and reform for the following decade, proving the benefits of space exploration. The technological developments formed the basis of many modern inventions such as compact computers and flight technology. Overall, the Apollo 11 mission stands as one of the strongest pieces of evidence for the importance of space exploration.",
+        ],
       },
       {
-        id: "telescope-era",
-        title: "The Telescope Era",
-        description: "How better observation tools changed human knowledge.",
-        content: placeholder,
+        id: "james-webb-space-telescope",
+        title: "James Webb Space Telescope",
+        description: "A modern observatory that expands how deeply humanity can study the universe.",
+        content: [
+          "NASA, in its overview of the James Webb telescope (2021), explains that the telescope represents a major milestone of modern space development. The overview supports this idea by emphasizing the discoveries and the potential advancements the telescope could bring about, from aerospace fields to astronomical fields and beyond. The purpose of the telescope is to utilize new technological developments to study the universe deeper and discover more information about the formation of the universe, developing our understanding of the universe further and thereby modern advancements. The telescope represents a major advancement for space research and the result of the continuing development that humans make by looking up at the stars to learn more.",
+        ],
+        sourceUrl: "https://science.nasa.gov/mission/webb/",
+        commentary: [
+          "The James Webb telescope is a resulting proof of the benefits that space exploration has brought about. The overall telescope is a major development that could develop modern physics and the model of the universe by making new discoveries with the modern technology it's equipped with. The underlying context of the telescope supports the benefit that space research has provided and the continuing effort of the world in support of exploring beyond. The telescope represents millions in funding backed by the work of thousands of people and is built on top of the space tech that preceded it. As of today it already brings about discoveries that are already changing humanity's understanding of the universe, such as measurements concerning the expansion of the universe and star development. Overall, the telescope represents the developing benefits of space travel on top of the historical benefits, proving the lasting effect that exploring beyond has.",
+        ],
       },
       {
         id: "modern-missions",
