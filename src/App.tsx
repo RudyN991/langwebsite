@@ -30,9 +30,9 @@ const checklistRows = [
     letter: "H",
     label: "History",
     weeks: [
+      { title: "Apollo 11", complete: true, weekLabel: "Week 3" },
+      { title: "James Webb Space Telescope", complete: true, weekLabel: "Week 3" },
       { title: "", complete: false },
-      { title: "", complete: false },
-      { title: "History Addition 1 + History Addition 2", complete: true },
     ],
   },
   {
