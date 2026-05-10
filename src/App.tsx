@@ -32,7 +32,7 @@ const checklistRows = [
     weeks: [
       { title: "", complete: false },
       { title: "", complete: false },
-      { title: "", complete: false },
+      { title: "History Addition 1 + History Addition 2", complete: true },
     ],
   },
   {
