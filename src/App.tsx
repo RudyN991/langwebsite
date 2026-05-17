@@ -39,8 +39,8 @@ const checklistRows = [
     letter: "U",
     label: "Universal Truths",
     weeks: [
-      { title: "Human Curiosity", complete: true, weekLabel: "Week 4" },
-      { title: "Shared Planet", complete: true, weekLabel: "Week 4" },
+      { title: "Per Aspera ad Astra", complete: true, weekLabel: "Week 4" },
+      { title: "Fortune Favors the Bold", complete: true, weekLabel: "Week 4" },
       { title: "", complete: false },
     ],
   },
