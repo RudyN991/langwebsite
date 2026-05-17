@@ -140,16 +140,30 @@ export const topics: Topic[] = [
     accent: "#8bffd7",
     subpages: [
       {
-        id: "human-curiosity",
-        title: "Human Curiosity",
-        description: "Why we keep asking what lies beyond the visible horizon.",
-        content: placeholder,
+        id: "per-aspera-ad-astra",
+        title: "Per Aspera Ad Astra",
+        description: "A stoic phrase about hardship, perseverance, and the path toward great achievement.",
+        content: [
+          '"Per aspera ad astra" (circa 19 BC) is a popular Latin phrase adapted from Stoic philosophy that means "through hardships, to the stars". The saying supports this idea through its wording and historical use, deriving not from one singular author or philosopher, but rather multiple different texts and sayings that circle around the idea that progress requires hardship (more specifically, the path from the earth to the stars is not easy). The purpose of this saying is motivational, conveying that progress requires difficulty and achieving something great is not meant to be easy. The saying builds a realistic but uplifting tone to represent the motivating reminder to continue even in the face of hardship.',
+        ],
+        sourceUrl:
+          "https://www.holstee.com/blogs/mindful-matter/per-aspera-ad-astra?srsltid=AfmBOorI9ypz_XI8D5AO_8OStWYhUUB-jTrUb5fxltdiq8SjYco-Wbph",
+        commentary: [
+          '"Per aspera ad astra" is a saying that embodies the difficulty of progress nearly perfectly, especially space exploration. The saying itself represents the slow and gritty path toward achieving a difficult goal, directly illustrating the nature of space technology and exploration. Space exploration takes time, money, and effort and does not always work out, as evident from the Apollo missions. They require sacrifice and are riddled with setbacks, however overcoming those setbacks and continuing on that path has led to great advancements for humanity. From landing on the moon to mapping out deep space, the rewards of persevering on the path from the Earth to the Stars have been great. "Per aspera ad astra" embodies space exploration directly, literally representing the difficulty of getting to the stars. It is a nod to why humanity should continue exploring the stars.',
+        ],
       },
       {
-        id: "shared-planet",
-        title: "Shared Planet",
-        description: "Space as a reminder of Earth's rarity and interconnectedness.",
-        content: placeholder,
+        id: "fortune-favors-the-bold",
+        title: "Fortune Favors the Bold",
+        description: "A classical idea that progress often belongs to those willing to take meaningful risks.",
+        content: [
+          '"Fortune favors the bold" is a stoic saying that originates from old Roman plays and stories (circa 160 BC) that exemplifies the value of taking a risk. The saying illustrates how those who take the risk and act bold are more likely to achieve their goals. The purpose of the saying is motivational but also acts as a push against living in comfort, depicting how it takes discomfort and uncertain risks to achieve. The saying sets itself in an uplifting and motivational tone and is broad, applying to a wide audience, not anchoring specifically to any context.',
+        ],
+        sourceUrl:
+          "https://stoicquotes.com/fortune-favors-the-brave/#the_history_of_fortune_favors_the_brave",
+        commentary: [
+          '"Fortune favors the bold" is a broad quote that generally applies to any goal that requires risk or sacrifice. It works in almost any context, especially space exploration. The quote highlights how difficult goals require taking risks that do not pay back instantly. It portrays how uncertain decisions are often required to get somewhere notable, similar to astronomical exploration. Space technologies take millions of dollars to develop, years to perfect, and risk the lives of many. However, it is a necessary risk. Space exploration well embodies fortune favoring the bold because without being bold, progress would not be possible. The reward for being bold and taking the risk was landing on the moon and exploring the stars, embodying the fortune that followed the risk. Overall, the quote highlights how the sacrifices that space exploration requires are necessary for progress and how humanity should continue being bold and exploring the stars.',
+        ],
       },
       {
         id: "future-instinct",
