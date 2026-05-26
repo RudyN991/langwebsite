@@ -48,7 +48,7 @@ const checklistRows = [
     letter: "G",
     label: "Government",
     weeks: [
-      { title: "", complete: false },
+      { title: "Public Investment", complete: true, weekLabel: "Week 5" },
       { title: "", complete: false },
       { title: "", complete: false },
     ],
@@ -57,7 +57,7 @@ const checklistRows = [
     letter: "O",
     label: "Opinion",
     weeks: [
-      { title: "", complete: false },
+      { title: "Why Now", complete: true, weekLabel: "Week 5" },
       { title: "", complete: false },
       { title: "", complete: false },
     ],
