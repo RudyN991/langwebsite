@@ -165,12 +165,6 @@ export const topics: Topic[] = [
           '"Fortune favors the bold" is a broad quote that generally applies to any goal that requires risk or sacrifice. It works in almost any context, especially space exploration. The quote highlights how difficult goals require taking risks that do not pay back instantly. It portrays how uncertain decisions are often required to get somewhere notable, similar to astronomical exploration. Space technologies take millions of dollars to develop, years to perfect, and risk the lives of many. However, it is a necessary risk. Space exploration well embodies fortune favoring the bold because without being bold, progress would not be possible. The reward for being bold and taking the risk was landing on the moon and exploring the stars, embodying the fortune that followed the risk. Overall, the quote highlights how the sacrifices that space exploration requires are necessary for progress and how humanity should continue being bold and exploring the stars.',
         ],
       },
-      {
-        id: "future-instinct",
-        title: "Future Instinct",
-        description: "Exploration as preparation, not escapism.",
-        content: placeholder,
-      },
     ],
   },
   {
@@ -184,10 +178,16 @@ export const topics: Topic[] = [
     accent: "#ff9cb5",
     subpages: [
       {
-        id: "public-investment",
-        title: "Public Investment",
-        description: "Why taxpayer-funded research still drives major breakthroughs.",
-        content: placeholder,
+        id: "astronomy-education",
+        title: "Astronomy Education",
+        description: "Why stronger astronomy education pipelines matter for long-term scientific progress.",
+        content: [
+          'John Percy, in his article "Astronomy Education: A Global Perspective" argues that there is a need for more astronomy related education to attract more young people to study the subject and progress it. He argues that STEM, and especially astronomy is underrepresented due to the lack of teaching materials teachers have, the limited training they have, and the key problem they have concerning that astronomy deals with the night, when students are not in school. The purpose of this article was to highlight the main flaws that surround classic astronomy education, especially at the younger level, and how they need to be addressed to further progress and participation in astronomy for the younger generations. Percy also includes some of the developments that were made around the world to target the astronomy education problem and lays a very direct tone within a short paragraph to convey the issue as clearly as possible and surround it with examples of how it can be addressed to create an optimistic view of the situation.',
+        ],
+        sourceUrl: "https://www.ips-planetarium.org/page/a_percy1995",
+        commentary: [
+          "This source highlights the importance of astronomy education and how the lack thereof is a major issue on an international level, especially so in the US. Many teachers believe astronomy to be a complex field and that idea carries onto students, creating a lack of new astronomers and limiting progress in the field. My community service idea would be to create a local astronomy focused program in public libraries that could partner with local schools. Many schools already work with libraries and having a program set outside of school helps deal with the issue of constrained school times. The program could include basic astronomy experience with science and concepts and reinforce them with basic projects. External involvement outside the context of school with hands-on discovery could help foster interest more effectively than in school programs and facilitate curiosity. This program could easily tie into a non-profit to deal with limiting costs and a central location such as a library would provide easy access, effectively addressing the lack of astronomy related education across many students at a time.",
+        ],
       },
       {
         id: "international-cooperation",
@@ -214,10 +214,17 @@ export const topics: Topic[] = [
     accent: "#d9b8ff",
     subpages: [
       {
-        id: "why-now",
-        title: "Why Now",
-        description: "The case for urgency in the present moment.",
-        content: placeholder,
+        id: "artemis-ii-investment",
+        title: "Artemis II Investment",
+        description: "A public-facing argument that space spending is a better long-term investment than destructive alternatives.",
+        content: [
+          "USA Today, in its \"Your Turn\" article \"Artemis II is a better use of money than welfare or bombs\" (2026), presents the view that the Artemis missions were worth their cost as space exploration provides a good use of money. The article supports this by including the viewpoint of several people repeating the same idea that exploration is built into human DNA and that space exploration brings about more positive technological development than something like warfare spending. The purpose of the article is to highlight the public opinion surrounding investment in space exploration and how many believe the mission was a good investment, simultaneously highlighting how space exploration is a beneficial investment. The article takes multiple tones by including many people's takes, from academic and logical to wondrous and emotional, all highlighting how exploration and space stand to benefit humanity in the long run.",
+        ],
+        sourceUrl:
+          "https://www.usatoday.com/story/opinion/voices/2026/04/10/artemis-landing-cost-nasa-mission-space/89524607007/",
+        commentary: [
+          "One major argument this article makes is that space exploration is a beneficial investment for humanity. It highlights how funding space missions is a better investment than something like warfare and has more long term developmental benefits. This directly supports my argument of how space exploration is beneficial and should be continued. Beyond just the Artemis missions, this source proves how historical investment has paid off in the form of satellites and new technologies. It also ties into the philosophical end of the argument and bolsters that humans are built to explore, supporting the distinction that we should continue to explore the stars while also supporting it with evidence. Overall, this source argues for the benefits of space investment and continuation of development and supports my argument concerning the topic directly.",
+        ],
       },
       {
         id: "cost-vs-value",
