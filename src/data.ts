@@ -227,16 +227,29 @@ export const topics: Topic[] = [
         ],
       },
       {
-        id: "cost-vs-value",
-        title: "Cost vs. Value",
-        description: "Responding to common objections about expense and priorities.",
-        content: placeholder,
+        id: "privatizing-space-exploration",
+        title: "Privatizing Space Exploration",
+        description: "An argument that private-sector competition can strengthen long-term space development.",
+        content: [
+          "Robert Frost argues in Forbes' \"The Pros And Cons Of Privatizing Space Exploration\" (2022) that while the privatization of space exploration is a nuanced topic, overall private company involvement benefits its development. Frost supports this point by highlighting how the private development of space technology can lower costs and increase innovation and supports this with historical examples for aerial aviation post WWI. The purpose of the article was to advocate for the benefits of the privatization of space exploration and how it can overall benefit the development of the field through more exposure and healthy competition. Frost further bolsters his point both through his title as an Instructor and Flight Controller at NASA and adopts a nuanced tone, helping boost his credibility considering both the field and the specific evidence he chose to use to support his argument, making his argument seem more grounded and acceptable.",
+        ],
+        sourceUrl:
+          "https://www.forbes.com/sites/quora/2017/04/04/the-pros-and-cons-of-privatizing-space-exploration/",
+        commentary: [
+          "Robert Frost develops the argument that privatization boosts the development of the space exploration field. He references how for the development and progress of aerial fields historically, private involvement has been beneficial,for both scientific development and economic opportunity for companies. This directly ties into my main argument about the importance of space development and how it is overall beneficial to humanity. Space exploration should be continued not only for the sake of exploration but because it provides an outside incentive for opportunity beyond just science. It is a two sided relationship benefitting both private companies as well as the field itself, through both privatization and competition which respectively bring more revenue and lower the cost of development. Overall, Frost's argument directly ties into how continuing space exploration stands to be beneficial to humanity.",
+        ],
       },
       {
-        id: "future-of-humanity",
-        title: "Future of Humanity",
-        description: "Why the long-term argument is also a present-day one.",
-        content: placeholder,
+        id: "stop-spending-money-on-space-exploration",
+        title: "Stop Spending Money on Space Exploration",
+        description: "A counterargument that space spending can come at the expense of more immediate human needs.",
+        content: [
+          "Alisha Ramani, in her opinion article \"Stop Spending Money on Space Exploration\", argues that space exploration, while novel and intriguing, is not directly helpful to humanity and is a waste of resources that could be applied elsewhere more effectively. Ramani supports her point through an example of a major NASA discovery of the first picture of a black hole. She compares the costs and argues that the picture had no direct effect on the state of the world and the $25 billion dollars could have been used on one of the numerous other, arguably more dire, problems of humanity such as homelessness, climate change, and terrorism. The purpose of this article was to highlight the pitfalls of space exploration investment and how the money that is often spent on space exploration results in little impactful discoveries, which conversely could have been used to solve other more immediate problems on Earth. Ramani uses a direct tone to present her ideas without any sugarcoating; opening with an anecdote on her interest with space and then directly switching to the main distinction she is arguing about to create both a credible and impactful stance for her point.",
+        ],
+        sourceUrl: "https://theperennial.org/2763/opinion/stop-spending-money-on-space-exploration/",
+        commentary: [
+          "Ramani makes a strong counterpoint to the importance of space exploration through her source. Her main point of Earthly problems is a valid concern, especially factoring in the vast cost of space exploration and development. While space exploration can yield beneficial information and set a foundation for future development and exploration, up to even colonization beyond Earth, it is not immediately effective if we cannot solve our firsthand bigger problems like homelessness or climate change first. On the other hand, space exploration is important and beneficial in the sense that we cannot further technology or create the base for a future in space without modern day investment. Space technology also is often repurposed for other beneficial uses across fields like materials, medical, and engineering and one of the major points is that of the many industries that get investment, space exploration gets relatively less; this presents the opportunity to balance spending from other fields like defense rather than limit space spending. Overall, Ramani's point, while it does not cover all the points of the consequences of space exploration, complicates the argument by providing an accurate highlight of the pitfalls of the money and time investment in space exploration and development.",
+        ],
       },
     ],
   },
