@@ -7,6 +7,28 @@ type PageState = {
   subpageId?: string;
 };
 
+const italicizedTitles = ["Astrophysics for People in a Hurry", "Interstellar"];
+
+function renderParagraphWithTitles(text: string) {
+  const segments = italicizedTitles.reduce<string[]>(
+    (parts, title) =>
+      parts.flatMap((part) =>
+        part.includes(title) ? part.split(title).flatMap((piece, index, array) => {
+          if (index === array.length - 1) {
+            return [piece];
+          }
+
+          return [piece, title];
+        }) : [part],
+      ),
+    [text],
+  );
+
+  return segments.map((segment, index) =>
+    italicizedTitles.includes(segment) ? <em key={`${segment}-${index}`}>{segment}</em> : segment,
+  );
+}
+
 const checklistRows = [
   {
     letter: "R",
@@ -417,7 +439,7 @@ function TopicPage({
             <p>{subpage.description}</p>
             <div className="subpage-body">
               {subpage.content.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
+                <p key={paragraph}>{renderParagraphWithTitles(paragraph)}</p>
               ))}
 
               {subpage.sourceUrl && (
