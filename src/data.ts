@@ -1,9 +1,5 @@
 import { Topic } from "./types";
 
-const placeholder = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt facilisis, nunc nisl aliquam nunc, vitae aliquam nisl nunc vel nisl. Integer placerat, velit non aliquet aliquet, est risus luctus sem, vitae posuere lectus nulla et nibh.",
-];
-
 export const heroTags = [
   "Artemis",
   "Black Holes",
@@ -121,12 +117,6 @@ export const topics: Topic[] = [
           "The James Webb telescope is a resulting proof of the benefits that space exploration has brought about. The overall telescope is a major development that could develop modern physics and the model of the universe by making new discoveries with the modern technology it's equipped with. The underlying context of the telescope supports the benefit that space research has provided and the continuing effort of the world in support of exploring beyond. The telescope represents millions in funding backed by the work of thousands of people and is built on top of the space tech that preceded it. As of today it already brings about discoveries that are already changing humanity's understanding of the universe, such as measurements concerning the expansion of the universe and star development. Overall, the telescope represents the developing benefits of space travel on top of the historical benefits, proving the lasting effect that exploring beyond has.",
         ],
       },
-      {
-        id: "modern-missions",
-        title: "Modern Missions",
-        description: "The evolution from national prestige to global collaboration.",
-        content: placeholder,
-      },
     ],
   },
   {
@@ -188,18 +178,6 @@ export const topics: Topic[] = [
         commentary: [
           "This source highlights the importance of astronomy education and how the lack thereof is a major issue on an international level, especially so in the US. Many teachers believe astronomy to be a complex field and that idea carries onto students, creating a lack of new astronomers and limiting progress in the field. My community service idea would be to create a local astronomy focused program in public libraries that could partner with local schools. Many schools already work with libraries and having a program set outside of school helps deal with the issue of constrained school times. The program could include basic astronomy experience with science and concepts and reinforce them with basic projects. External involvement outside the context of school with hands-on discovery could help foster interest more effectively than in school programs and facilitate curiosity. This program could easily tie into a non-profit to deal with limiting costs and a central location such as a library would provide easy access, effectively addressing the lack of astronomy related education across many students at a time.",
         ],
-      },
-      {
-        id: "international-cooperation",
-        title: "International Cooperation",
-        description: "Alliances, treaties, and cooperation beyond borders.",
-        content: placeholder,
-      },
-      {
-        id: "planetary-defense-policy",
-        title: "Planetary Defense Policy",
-        description: "Planning for low-probability, high-impact cosmic threats.",
-        content: placeholder,
       },
     ],
   },
