@@ -58,8 +58,8 @@ const checklistRows = [
     label: "Opinion",
     weeks: [
       { title: "Why Now", complete: true, weekLabel: "Week 5" },
-      { title: "", complete: false },
-      { title: "", complete: false },
+      { title: "Cost vs. Value", complete: true, weekLabel: "Week 6" },
+      { title: "Future of Humanity", complete: true, weekLabel: "Week 6" },
     ],
   },
 ];
